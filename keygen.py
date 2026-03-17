@@ -1,7 +1,7 @@
 # By Hitachi_Mako 233!!  hitachimako @52pojie
 
 from __future__ import annotations
-
+import os
 import argparse
 from datetime import date, datetime, timedelta
 
@@ -399,7 +399,7 @@ def main() -> None:
     print(f"Grouped key      : {result['grouped_key']}")
     print(f"Checksum ok      : {result['decoded']['checksum_ok']}")
     print(f"Current sample ok: {result['current_sample_ok']}")
-
+    os.system("pause")
 
 if __name__ == "__main__":
     main()
